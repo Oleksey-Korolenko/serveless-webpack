@@ -1,7 +1,7 @@
 org: bubo2scandiacus
 app: study-serverless-framework
 service: lesson-1
-frameworkVersion: "3"
+frameworkVersion: '3'
 
 plugins:
   - serverless-webpack
@@ -21,32 +21,32 @@ provider:
 
 functions:
   task-1:
-    handler: src/task-1.handler
+    handler: src/task-1/task-1.handler
     events:
       - httpApi:
-          method: "POST"
+          method: 'POST'
           path: /task-1
   task-2:
-    handler: src/task-2.handler
+    handler: src/task-2/task-2.handler
     events:
       - httpApi:
-          method: "POST"
+          method: 'POST'
           path: /task-2
   task-3:
-    handler: src/task-3.handler
+    handler: src/task-3/task-3.handler
     events:
       - httpApi:
-          method: "POST"
+          method: 'POST'
           path: /task-3
   task-4:
-    handler: src/task-4.handler
+    handler: src/task-4/task-4.handler
     events:
       - httpApi:
-          method: "GET"
+          method: 'GET'
           path: /task-4
   task-5:
-    handler: src/task-5.handler
+    handler: src/task-5/task-5.handler
     events:
       - httpApi:
-          method: "POST"
+          method: 'POST'
           path: /task-5

@@ -36,6 +36,7 @@
       }
     ],
     "no-underscore-dangle": ["error", { "allowAfterThis": true }],
-    "no-return-await": "error"
+    "no-return-await": "error",
+    "implicit-arrow-linebreak": ["below"]
   }
 }
